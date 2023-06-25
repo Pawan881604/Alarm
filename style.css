@@ -1,0 +1,64 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2#clock {
+    font-size: 60px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#alarm-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #333;
+}
+
+label {
+    display: inline-block;
+    margin: 10px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#buttonHolder {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#setButton {
+    background-color: #4caf50;
+}
+
+#clearButton {
+    background-color: #f44336;
+}
